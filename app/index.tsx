@@ -1,6 +1,7 @@
 import { ImageBackground, StyleSheet, Text, View } from "react-native";
 import Grids from "@/components/grid";
 import { ScrollView } from "react-native";
+//wthhhhh
 interface Item {
   id: string;
   title: string;
