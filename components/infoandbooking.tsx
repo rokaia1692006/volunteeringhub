@@ -44,7 +44,7 @@ function Title()
   
   <View>
   <Image
-      source={ require("../assets/images/CoverPage.jpg")} //two dots, not one
+      source={ require("../assets/images/CoverPage.jpg")} 
       style={{ width: "100%", height: 400 }}
     />
   <Text style={[styles.Booking, {position: "absolute", top:286, left:120}]}> Booking </Text>
@@ -68,7 +68,7 @@ function Spot1()
       style={{ 
         width: 400,
         height: 400,
-        borderRadius: 200, //half the width
+        borderRadius: 200, 
         marginLeft: 1100,
         marginTop: 270,
         
