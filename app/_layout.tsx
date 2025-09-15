@@ -1,9 +1,11 @@
 import { Stack } from "expo-router";
-import draw from "@/components/header";
+import DrawerNavigator from "./components/drawer_nav";
+
 export default function RootLayout() {
   return (
-    <Stack screenOptions={{ headerShown: false }}>
-      {draw()}
-    </Stack>
+    <DrawerNavigator 
+      username="hhhh" 
+      userIcon={require("../assets/images/avatar.jpg")} 
+    />
   );
 }
